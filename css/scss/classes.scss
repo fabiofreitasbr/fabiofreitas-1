@@ -1,0 +1,153 @@
+/* GLOBAL */
+* { margin: 0px; word-wrap: break-word; }
+body, html { margin: 0px; padding: 0px; font-family: $fontPrincipal; }
+body { background-color: $corBranco; color: $corPrincipal; }
+a, a:hover, a:active, a:focus, a:visited { cursor: pointer; text-decoration: none; color: $corSecundaria; }
+
+/* TÍTULOS E TEXTOS */
+main { 
+	font-size: 18px; 
+	min-height: 500px;
+	h1, h2, h3, h4, h5, h6 {
+		padding: 5px 0px;
+		&.title {
+			padding: 20px 0px;
+		}
+	}
+}
+h1, h2, h3, h4, h5, h6 { 
+	font-family: $fontPrincipal;
+	font-weight: 800;
+	margin: 0px;
+	&.title {
+		text-transform: uppercase;
+		text-align: left;
+		padding: 20px 0px;
+		font-weight: 800;
+		color: $corPrincipal;
+	}
+}
+h1 { text-transform: uppercase; }
+h2 { font-size: 25px; padding: 5px 0px; text-align: center; color: $corPrincipal; }
+
+/* ELEMENTOS */
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+img { max-width: 100%; }
+
+.input-contato, .area-contato, input[type=text], input[type=email], input[type=tel], select, textarea {
+    text-align: left;
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 10px;
+    border: solid 2px $corBranco;
+    font-size: 16px;
+    font-weight: bold;
+    color: $corPrincipal;
+    border-radius: 6px;
+    &::placeholder {
+        font-weight: bold;
+    	color: $corTerceira !important;
+    }
+}
+input:focus, textarea:focus, button:focus { outline: none !important; }
+input[type=button], input[type=submit], input[type=reset], button, .btn {
+    background-color: $corSecundaria;
+    margin: 15px auto;
+    padding: 8px 25px;
+    color: $corPrincipal !important;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: italic;
+    word-wrap: break-word;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    &.btn-reverse {
+        background-color: $corPrincipal;
+        color: $corSecundaria !important;
+    }
+}
+
+/* CONTACT FORM */
+input,textarea,.wpcf7-not-valid-tip { box-sizing:border-box; }
+#response-quotation .wpcf7-not-valid-tip {
+    color:#d80e0e!important;
+    font-size:1em;
+    font-weight:400;
+    display:block;
+    background-color:#d0d0d0;
+    padding:10px 15px;
+    border:dashed 1px #d80e0e;
+    font-family:'Ubuntu',sans-serif;
+    margin-bottom:18px
+}
+#response-quotation div.wpcf7-validation-errors,#response-quotation div.wpcf7-acceptance-missing {
+    display:block!important;
+    margin:10px 0px!important;
+    border:2px solid #ff9595!important;
+    padding:10px 15px!important;
+    background-color:#b91616;
+    font-family:'Ubuntu',sans-serif;
+    text-align:center;
+    color:#f9dede;
+}
+#response-quotation .warning {
+    display:block!important;
+    margin:10px 0px!important;
+    border:2px solid #f1c904!important;
+    padding:10px 15px!important;
+    background-color:#ab900b;
+    font-family:'Ubuntu',sans-serif;
+    text-align:center;
+    color:#f9f7de
+}
+#response-quotation .success {
+    display:block!important;
+    margin:10px 0px!important;
+    border:2px solid #88da66!important;
+    padding:10px 15px!important;
+    background-color:#2faf0f;
+    font-family:'Ubuntu',sans-serif;
+    text-align:center;
+    color:#e2f9de;
+}
+
+/* PAGINATION */
+.pagination{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+    li{
+        display: inline-block;
+        margin: 0px 5px;
+        a {
+            background-color: $corPrincipal;
+            border: 1px solid $corPrincipal;
+            padding: 8px 15px;
+            border-radius: 6px;
+            font-size: 17px;
+            text-align: center;
+            color: $corBranco;
+            transition: ease .3s all;
+            &.current { color: $corSecundaria; }
+            &:hover {
+                background-color: #fff;
+                color: #016b27;
+            }
+        }
+    }
+}
+
+/* WORDPRESS */
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
