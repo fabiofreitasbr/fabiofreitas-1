@@ -1,0 +1,21 @@
+header {
+    display: block;
+    position: fixed;
+    width: 100%;
+    .content-header{
+        color: $corBranco;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 0px;
+        .header-logo {
+            img {
+                width: 42px;
+                height: 42px;
+            }
+        }
+        .header-menu {
+            font-size: 30px;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+section#biography {
+    .content-biography {
+        padding-top: 15px;
+        .img-biography {
+            display: block;
+            margin: 0px auto;
+            border-radius: 50%;
+            width: 200px;
+            overflow: hidden;
+            border: solid 5px $corPrincipal;
+            img {
+                width: 100%;
+            }
+        }
+        .text-biography {
+            padding: 15px 0px;
+            color: $corText;
+            text-align: center;
+            h3 {
+                padding: 12px 0px;
+            }
+            p {
+                padding: 2px 0px;
+            }
+        }
+    }
+}

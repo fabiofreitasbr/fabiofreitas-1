@@ -1,5 +1,5 @@
 /* GLOBAL */
-* { margin: 0px; word-wrap: break-word; }
+* { margin: 0px; word-wrap: break-word; -webkit-font-smoothing: antialiased;}
 body, html { margin: 0px; padding: 0px; font-family: $fontPrincipal; }
 body { background-color: $corBranco; color: $corPrincipal; }
 a, a:hover, a:active, a:focus, a:visited { cursor: pointer; text-decoration: none; color: $corSecundaria; }
@@ -15,6 +15,7 @@ main {
 		}
 	}
 }
+section.section-default { padding: 20px 0px; }
 h1, h2, h3, h4, h5, h6 { 
 	font-family: $fontPrincipal;
 	font-weight: 800;
@@ -29,6 +30,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 { text-transform: uppercase; }
 h2 { font-size: 25px; padding: 5px 0px; text-align: center; color: $corPrincipal; }
+h2.title-section {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: normal;
+}
 
 /* ELEMENTOS */
 ul {
@@ -40,36 +47,33 @@ img { max-width: 100%; }
 .input-contato, .area-contato, input[type=text], input[type=email], input[type=tel], select, textarea {
     text-align: left;
     width: 100%;
-    padding: 11px;
-    margin-bottom: 10px;
-    border: solid 2px $corBranco;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: solid 1.4px $corBranco;
     font-size: 16px;
-    font-weight: bold;
     color: $corPrincipal;
-    border-radius: 6px;
+    background-color: transparent;
+    text-transform: uppercase;
     &::placeholder {
-        font-weight: bold;
-    	color: $corTerceira !important;
+    	color: $corBranco !important;
     }
 }
 input:focus, textarea:focus, button:focus { outline: none !important; }
 input[type=button], input[type=submit], input[type=reset], button, .btn {
-    background-color: $corSecundaria;
+    background-color: $corPrincipal;
     margin: 15px auto;
-    padding: 8px 25px;
-    color: $corPrincipal !important;
+    padding: 8px 30px;
+    color: $corSecundaria !important;
     text-align: center;
     text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 800;
-    font-style: italic;
+    font-size: 17px;
     word-wrap: break-word;
     cursor: pointer;
     border: none;
-    border-radius: 30px;
+    border-radius: 5px;
     &.btn-reverse {
-        background-color: $corPrincipal;
-        color: $corSecundaria !important;
+        background-color: $corSecundaria;
+        color: $corPrincipal !important;
     }
 }
 

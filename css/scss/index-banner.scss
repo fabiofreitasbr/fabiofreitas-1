@@ -7,15 +7,32 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding: 20px 0px;
         img {
             max-width: 130px;
             display: block;
         }
         h1 {
-            font-size: 15px;
+            font-size: 30px;
+            padding: 12px 0px 5px;
         }
         p {
             text-transform: uppercase;
+            padding: 5px 0px;
+        }
+    }
+    .home-banner-socials {
+        padding: 5px 0px;
+        .list-socials {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .single-social {
+                padding: 15px 12px;
+                a {
+                    font-size: 32px;
+                }
+            }
         }
     }
 }

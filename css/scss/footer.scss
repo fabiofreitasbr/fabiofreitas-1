@@ -1,0 +1,21 @@
+footer {
+    padding: 20px 0px;
+    background-color: $corQuarta;
+    h2 {
+        padding: 10px 0px;
+        color: $corTerceira;
+        text-transform: uppercase;
+    }
+    .list-socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .single-social {
+            padding: 0px 12px;
+            a {
+                color: $corTerceira;
+                font-size: 32px;
+            }
+        }
+    }
+}

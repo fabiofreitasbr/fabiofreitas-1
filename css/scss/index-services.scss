@@ -1,0 +1,26 @@
+section#services {
+    background-color: $corPrincipal;
+    color: $corSecundaria;
+    .title-service  {
+        color: $corBranco;
+    }
+    .single-service {
+        margin: 7px 0px;
+        .icon-service {
+            padding: 10px 0px;
+            .img-service {
+                max-width: 70px;
+                display: block;
+                margin: 0px auto;
+            }
+        }
+        h4 {
+            font-size: 13px;
+            font-weight: normal;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 1.4;
+            padding: 8px 0px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+section#contact {
+    background-color: $corPrincipal;
+    color: $corSecundaria;
+    .content-contact {
+        h2.title-contact {
+            color: $corSecundaria;
+        }
+        form {
+            margin: 15px 0px;
+        }
+    }
+}
