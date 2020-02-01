@@ -1,4 +1,4 @@
-section#services {
+section.section-services {
     background-color: $corPrincipal;
     color: $corSecundaria;
     .title-service  {
@@ -7,7 +7,7 @@ section#services {
     .single-service {
         margin: 7px 0px;
         .icon-service {
-            padding: 10px 0px;
+            padding: 13px 0px;
             .img-service {
                 max-width: 70px;
                 display: block;
@@ -15,12 +15,71 @@ section#services {
             }
         }
         h4 {
-            font-size: 13px;
+            font-size: 19px;
             font-weight: normal;
             text-transform: uppercase;
             text-align: center;
             line-height: 1.4;
-            padding: 8px 0px;
+            padding: 10px 30px;
+        }
+    }
+}
+@media screen and (max-width: $xsWidth) {
+    section.section-services {
+        .single-service {
+            h4 {
+                font-size: 15px;
+                padding: 8px 0px;
+            }
+        }
+    }
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+    section.section-services {
+        .single-service {
+            .icon-service {
+                padding: 20px 0px;
+            }
+            h4 {
+                padding: 15px 25px;
+            }
+        }
+    }
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+    section.section-services {
+        .single-service {
+            margin: 15px 0px;
+            .icon-service {
+                padding: 20px 0px;
+                img {
+                    max-width: 80px;
+                }
+            }
+            h4 {
+                padding: 15px 25px;
+                font-size: 21px;
+            }
+        }
+    }
+}
+@media screen and (min-width: $xlWidth) {
+    section.section-services {
+        .single-service {
+            margin: 15px 0px;
+            .icon-service {
+                padding: 20px 0px;
+                img {
+                    max-width: 80px;
+                }
+            }
+            h4 {
+                padding: 15px 35px;
+                font-size: 21px;
+            }
         }
     }
 }

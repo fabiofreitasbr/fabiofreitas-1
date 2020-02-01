@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i&display=swap');
 
 /* Cores do Tema */
-$corPrincipal: #040404;
+$corPrincipal: #060606;
+$corPrincipalHover: #242424;
 $corSecundaria: #FFFFFF;
+$corSecundariaHover: #DFDFDF;
 $corTerceira: #444444;
 $corQuarta: #DBDBDB;
 $corQuinta: #ECECEC;
@@ -23,10 +25,6 @@ $fontPrincipal: 'Lato';
 $fontSizePrincipal: 20px;
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
 
 // GLOBAL
 @import 'classes';

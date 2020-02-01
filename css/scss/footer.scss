@@ -19,3 +19,25 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: $xsWidth) {
+    
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+    footer {
+        padding: 20px 0px;
+    }
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+    footer {
+        padding: 25px 0px;
+    }
+}
+@media screen and (min-width: $xlWidth) {
+    footer {
+        padding: 30px 0px;
+    }
+}

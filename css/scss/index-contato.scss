@@ -1,4 +1,4 @@
-section#contact {
+section.section-contato {
     background-color: $corPrincipal;
     color: $corSecundaria;
     .content-contact {
@@ -7,6 +7,48 @@ section#contact {
         }
         form {
             margin: 15px 0px;
+            input, textarea {
+                color: $corSecundaria;
+                &::placeholder {
+                    color: $corQuarta !important;
+                }
+            }
+            button, .btn {
+                margin: 0px;
+                float: right;
+            }
         }
     }
+}
+
+@media screen and (max-width: $xsWidth) {
+    section.section-contato {
+        .content-contact {
+            form {
+                button, .btn {
+                    float: none;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+    section.section-contato {
+        .content-contact {
+            form {
+                button, .btn {
+                    float: none;
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+    
+}
+@media screen and (min-width: $xlWidth) {
+    
 }

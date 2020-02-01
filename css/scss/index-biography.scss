@@ -1,4 +1,4 @@
-section#biography {
+section.section-biography {
     .content-biography {
         padding-top: 15px;
         .img-biography {
@@ -15,13 +15,43 @@ section#biography {
         .text-biography {
             padding: 15px 0px;
             color: $corText;
-            text-align: center;
+            text-align: left;
             h3 {
                 padding: 12px 0px;
             }
             p {
+                font-size: 19px;
                 padding: 2px 0px;
+            }
+            button, .btn {
+                margin: 15px 0px;
             }
         }
     }
+}
+
+@media screen and (max-width: $xsWidth) {
+    section.section-biography {
+        .content-biography {
+            .text-biography {
+                text-align: center;
+                button, .btn {
+                    margin: 15px auto;
+                }
+            }
+        }
+    }
+
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+    
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+    
+}
+@media screen and (min-width: $xlWidth) {
+    
 }

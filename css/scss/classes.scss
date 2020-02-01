@@ -71,9 +71,16 @@ input[type=button], input[type=submit], input[type=reset], button, .btn {
     cursor: pointer;
     border: none;
     border-radius: 5px;
+    transition: all 0.3s ease;
+    &:hover, &:active {
+        background-color: $corPrincipalHover;
+    }
     &.btn-reverse {
         background-color: $corSecundaria;
         color: $corPrincipal !important;
+        &:hover, &:active {
+            background-color: $corSecundariaHover;
+        }
     }
 }
 
@@ -155,3 +162,19 @@ img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 .alignright { float: right; }
 .alignleft { float: left; }
 .aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+@media screen and (max-width: $xsWidth) {
+    
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+    section.section-default { padding: 30px 0px; }
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+    section.section-default { padding: 40px 0px; }
+}
+@media screen and (min-width: $xlWidth) {
+    section.section-default { padding: 50px 0px; }
+}

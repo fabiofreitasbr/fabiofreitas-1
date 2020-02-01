@@ -36,3 +36,116 @@
         }
     }
 }
+
+@media screen and (max-width: $xsWidth) {
+
+}
+@media screen and (min-width: $smWidth) and (max-width: $mdWidth) {
+    .home-banner {
+        padding-top: 70px;
+        .content-banner {
+            img {
+                max-width: 160px;
+            }
+            h1 {
+                font-size: 40px;
+                padding: 20px 0px 12px;
+            }
+            p {
+                padding: 5px 0px;
+                font-size: 19px;
+            }
+        }
+        .home-banner-socials {
+            .list-socials {
+                .single-social {
+                    a {
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media screen and (min-width: $mdWidth) and (max-width: $lgWidth) {
+    .home-banner {
+        padding-top: 70px;
+        .content-banner {
+            img {
+                max-width: 180px;
+            }
+            h1 {
+                font-size: 50px;
+                padding: 20px 0px 12px;
+            }
+            p {
+                padding: 5px 0px;
+                font-size: 19px;
+            }
+        }
+        .home-banner-socials {
+            .list-socials {
+                .single-social {
+                    a {
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: $lgWidth) and (max-width: $xlWidth) {
+    .home-banner {
+        padding-top: 70px;
+        .content-banner {
+            img {
+                max-width: 180px;
+            }
+            h1 {
+                font-size: 50px;
+                padding: 20px 0px 12px;
+            }
+            p {
+                padding: 5px 0px;
+                font-size: 19px;
+            }
+        }
+        .home-banner-socials {
+            .list-socials {
+                .single-social {
+                    a {
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width: $xlWidth) {
+    .home-banner {
+        padding-top: 70px;
+        .content-banner {
+            img {
+                max-width: 200px;
+            }
+            h1 {
+                font-size: 55px;
+                padding: 20px 0px 12px;
+            }
+            p {
+                padding: 5px 0px;
+                font-size: 19px;
+            }
+        }
+        .home-banner-socials {
+            .list-socials {
+                .single-social {
+                    a {
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+    }
+}
