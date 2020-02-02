@@ -85,47 +85,23 @@ input[type=button], input[type=submit], input[type=reset], button, .btn {
 }
 
 /* CONTACT FORM */
-input,textarea,.wpcf7-not-valid-tip { box-sizing:border-box; }
-#response-quotation .wpcf7-not-valid-tip {
-    color:#d80e0e!important;
-    font-size:1em;
-    font-weight:400;
-    display:block;
-    background-color:#d0d0d0;
-    padding:10px 15px;
-    border:dashed 1px #d80e0e;
-    font-family:'Ubuntu',sans-serif;
-    margin-bottom:18px
+/* CONTACT FORM */
+span.wpcf7-not-valid-tip {
+    display: none !important;
 }
-#response-quotation div.wpcf7-validation-errors,#response-quotation div.wpcf7-acceptance-missing {
-    display:block!important;
-    margin:10px 0px!important;
-    border:2px solid #ff9595!important;
-    padding:10px 15px!important;
-    background-color:#b91616;
-    font-family:'Ubuntu',sans-serif;
-    text-align:center;
-    color:#f9dede;
+div.wpcf7-response-output {
+    background-color: #efefef !important;
+    color: #cc2e2e !important;
+    border: dashed 2px #cc2e2e !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    margin: 0px !important;
+    padding: 6px 3px !important;
 }
-#response-quotation .warning {
-    display:block!important;
-    margin:10px 0px!important;
-    border:2px solid #f1c904!important;
-    padding:10px 15px!important;
-    background-color:#ab900b;
-    font-family:'Ubuntu',sans-serif;
-    text-align:center;
-    color:#f9f7de
-}
-#response-quotation .success {
-    display:block!important;
-    margin:10px 0px!important;
-    border:2px solid #88da66!important;
-    padding:10px 15px!important;
-    background-color:#2faf0f;
-    font-family:'Ubuntu',sans-serif;
-    text-align:center;
-    color:#e2f9de;
+.form-check-input {
+    position: relative !important;
 }
 
 /* PAGINATION */

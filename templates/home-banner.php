@@ -9,10 +9,10 @@
                 </div>
                 <div class="home-banner-socials">
                     <div class="list-socials">
-                        <div class="single-social"><a href="https://www.facebook.com/FabioFreitasBR" target="_blank"><i class="fab fa-facebook-square"></i></a></div>
-                        <div class="single-social"><a href="http://instagram.com.br/fabiofreitasbr" target="_blank"><i class="fab fa-instagram"></i></a></div>
-                        <div class="single-social"><a href="https://www.linkedin.com/in/fabiofreitasbr" target="_blank"><i class="fab fa-linkedin"></i></a></div>
-                        <div class="single-social"><a href="https://www.behance.net/fabiofreitasbr" target="_blank"><i class="fab fa-behance"></i></a></div>
+                        <div class="single-social"><a href="<?php echo InfoVar::show('facebook'); ?>" target="_blank"><i class="fab fa-facebook-square"></i></a></div>
+                        <div class="single-social"><a href="<?php echo InfoVar::show('instagram'); ?>" target="_blank"><i class="fab fa-instagram"></i></a></div>
+                        <div class="single-social"><a href="<?php echo InfoVar::show('linkedin'); ?>" target="_blank"><i class="fab fa-linkedin"></i></a></div>
+                        <div class="single-social"><a href="<?php echo InfoVar::show('behance'); ?>" target="_blank"><i class="fab fa-behance"></i></a></div>
                     </div>
                 </div>
             </div>
