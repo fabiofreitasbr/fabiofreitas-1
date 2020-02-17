@@ -27,10 +27,10 @@
                 <h4>Publicidade e Marketing</h4>
             </div>
         </div>
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-12">
                 <button class="btn-reverse d-block">Saiba Mais</button>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>

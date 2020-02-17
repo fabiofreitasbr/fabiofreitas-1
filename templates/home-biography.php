@@ -12,9 +12,11 @@
                     <h3>Fábio Freitas</h3>
                     <p>Desenvolvedor e Publicitário, com conhecimento em diversas áreas de tecnologia e comunicação. 
                         Desde Design, Web, Fotografia e Filmagem a áreas de Publicidade, Marketing e Redes Sociais.</p>
+                    <!-- 
                     <a href="">
                         <button class="btn d-block">Saiba Mais</button>
                     </a>
+                    -->
                 </div>
             </div>
         </div>
